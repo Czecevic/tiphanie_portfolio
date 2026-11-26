@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import oizong from "./assets/oisong.jpg";
 import tiph_photo from "./assets/photo_tiph_couleur.png";
-import { listProject, otherProject } from "@/public/data/data";
+import { listProject, otherProject } from "@/public/data/data/Projects";
 import { FooterBar } from "./components/FooterBar";
 
 export default function Home() {
@@ -93,7 +93,7 @@ export default function Home() {
       </section>
 
       {/* Personal Projects Section */}
-      <section className="flex flex-col md:flex-row gap-8 items-center pt-4">
+      <section id="loisirs" className="flex flex-col md:flex-row gap-8 items-center pt-4">
         <div className="w-full md:w-2/3">
           <h2 className="text-3xl font-extrabold tracking-wider mb-4">
             Projets personnels en dehors du design

@@ -5,7 +5,7 @@ const tf1 = assetPath("TF1");
 const nysos = assetPath("Nysos");
 const ratp = assetPath("RATP");
 const steam = assetPath("steam");
-const barquette = assetPath("barquette");
+const barquette = assetPath("Barquette");
 const greenLab = assetPath("greenLab");
 
 export const listProject: Project[] = [
@@ -127,7 +127,6 @@ export const listProject: Project[] = [
     methodologieDesc:
       "Nous avons décidé de partir sur Steam, qui a un éco-index de G et un score Green IT de E, ce qui est très faible. Nous avons pris plus précisément la page du jeu « Iratus : Lord of the Dead ». Nous avons ensuite réalisé un atelier H.O.R.S.E. : Hide, Organize, Reduce, Standardize, Eliminate. Réalisation de wireframes sur papier.",
     methodologieImg: toImages(numbered(steam, "metho", 2)),
-    UI: toImages([steam("header.png"), steam("videoContainer.png")]),
   },
   {
     id: 4,

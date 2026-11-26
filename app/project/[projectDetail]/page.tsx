@@ -301,7 +301,7 @@ export default async function ProjectDetail({ params }: PageProps) {
         </div>
       )}
 
-      {project.UI && <UISection project={project} />}
+      {(project.UI || project.title === "Steam") && <UISection project={project} />}
 
       {project.TU && <VisiteTU TU={project.TU} TU_2={project.TU_2} />}
 

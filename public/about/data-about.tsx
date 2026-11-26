@@ -5,16 +5,19 @@ export const LIST_ABOUT = [
     id: 0,
     title: "Emplois",
     desc: "Présentation des différents postes où j’ai pu mettre en pratique mes compétences et les approfondir.",
+    href: "#emplois",
   },
   {
     id: 1,
     title: "Diplômes",
     desc: "Présentation des différentes formations dans lesquelles j’ai développé des compétences pratiques et soft skills.",
+    href: "#diplomes",
   },
   {
     id: 2,
     title: "Loisirs",
     desc: "Présentation des activités créatives que je pratique pour nourrir ma curiosité.",
+    href: "/#loisirs",
   },
 ];
 

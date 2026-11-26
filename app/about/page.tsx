@@ -36,7 +36,7 @@ export default function About() {
       </header>
 
       <section aria-label="Navigation rapide" className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {LIST_ABOUT.map(({ id, title, desc }) => (
+        {LIST_ABOUT.map(({ id, title, desc, href }) => (
           <article
             key={id}
             className="p-5 rounded-xl flex flex-col justify-between gap-4"
@@ -45,12 +45,12 @@ export default function About() {
               <h2 className="text-xl font-heading font-bold mb-2">{title}</h2>
               <p className="text-sm leading-relaxed">{desc}</p>
             </div>
-            <a
-              href={`#${title.toLowerCase()}`}
+            <Link
+              href={href}
               className="text-[#7e1114] hover:underline text-base font-semibold w-fit"
             >
               Voir plus
-            </a>
+            </Link>
           </article>
         ))}
       </section>
