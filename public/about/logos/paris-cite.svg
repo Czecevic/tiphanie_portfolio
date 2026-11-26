@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 50" fill="none">
+  <g transform="translate(6, 6) scale(0.9)">
+    <path d="M12 4C5 4 0 10 0 18C0 27 7 35 18 35C22 35 25 33 27 31V37H32V9C32 6 30 4 27 4C23 4 20 6 19 9C17 6 15 4 12 4ZM12 9C15 9 18 12 18 18C18 25 15 30 12 30C8 30 5 26 5 19C5 13 8 9 12 9ZM27 10V26C25 29 23 30 20 30C23 25 24 19 24 15C24 12 23 10 22 9C23 8.5 25 8.5 27 10Z" fill="#7e1114" />
+  </g>
+  <text x="48" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#7e1114">Université</text>
+  <text x="48" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#7e1114">Paris Cité</text>
+</svg>
